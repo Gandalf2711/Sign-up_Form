@@ -1,3 +1,27 @@
-h1 {
-    background-color: blue;
+body {
+    margin: 0px;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.bottom {
+    background-color: #f7f6f2;
+}
+
+.bottom {
+    flex: 1;
+}
+
+fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
 }
