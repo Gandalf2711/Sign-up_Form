@@ -1,27 +1,91 @@
 body {
     margin: 0px;
+    background-color: #f7f6f2;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p,
+legend {
+    font-size: 15px;
+}
+
+label {
+    font-size: 10px;
 }
 
 .flex-container{
     display: flex;
 }
 
-.form {
+.header{
+    padding: 40px 300px 20px 40px;
+}
+
+.form-row{
     display: flex;
-    flex-direction: column;
 }
 
-.header,
-.bottom {
-    background-color: #f7f6f2;
+.form-group {
+  padding: 5px;
+  width: 50%;
+}
+
+.form-group input {
+  width: 90%;
+}
+
+form {
+    background-color: white;
+    padding: 20px 200px 20px 20px;
 }
 
 .bottom {
-    flex: 1;
+    padding: 20px 20px 20px 40px;
+}
+
+button {
+    color: white;
+    font-size: 15px;
+    background-color: #04AA6D;
+    padding: 10px 24px;
+    border-radius: 4px;
+    border-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+a:link {
+    text-decoration: none;
+    color: #04AA6D;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 fieldset {
     border: none;
     display: flex;
     flex-direction: column;
+}
+
+input{
+    border: 2px solid #E5E7EB;
+    border-radius: 4px;
+    padding: 5px;
+    outline: none;
+    width: 100px;
+}
+
+input:focus {
+  border-color: blue;
+  box-shadow: 2px 2px 1px lightblue;
+}
+
+input[type="password"]:invalid{
+    border-color: red;
 }

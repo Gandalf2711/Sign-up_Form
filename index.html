@@ -18,23 +18,42 @@
                 <form>
                     <fieldset>
                         <legend>Let's do this!</legend>
-                        <label for="first_name">First name:</label>
-                        <input type="text" id="first_name">
 
-                        <label for="last_name">Last name:</label>
-                        <input type="text" id="last_name">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="first_name">FIRST NAME</label>
+                                <input type="text" size="20" id="first_name">
+                            </div>
 
-                        <label for="email">Email:</label>
-                        <input type="email" id="email">
+                            <div class="form-group">
+                                <label for="last_name">LAST NAME</label>
+                                <input type="text" id="last_name">
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">EMAIL</label>
+                                <input type="email" id="email">
+                            </div>
+                        
+                            <div class="form-group">
+                                <label for="phone">PHONE NUMBER</label>
+                                <input type="tel" id="phone">
+                            </div>
+                        </div>
 
-                        <label for="phone">Phone number:</label>
-                        <input type="tel" id="pone">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="password">PASSWORD</label>
+                                <input type="password" id="password" required>
+                            </div>
 
-                        <label for="password">Password:</label>
-                        <input type="password" id="password">
-
-                        <label for="password_conf">Confirm password:</label>
-                        <input type="password" id="password_conf">
+                            <div class="form-group">
+                                <label for="password_conf">CONFIRM PASSWORD</label>
+                                <input type="password" id="password_conf" required>
+                            </div>
+                        </div>
                     </fieldset>
                 </form>
             </div>
